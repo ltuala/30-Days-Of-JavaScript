@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>30DaysOfJavaScript: 26 Day World Countries List</title>
+</head>
+<body>
+    <main>
+		<div class="main_hero-section">
+			<h1>World Countries Data</h1>
+			<p>Total Number of Countries: <span id="countries-count" class="main_highlighted">250</span></p>
+			<div class="main_button-container">
+				    <label>
+						starting word
+						<input type="radio" name="filter" value="starts-with">
+					</label>
+					<label>
+						search with any word
+						<input type="radio" name="filter" value="search">
+					</label>
+					<label>
+						Sort Z-A
+						<input type="checkbox" name="sort">
+					</label>
+			</div>
+			<div class="main_input-container">
+					<input type="text" placeholder="Search country">
+			</div>
+			<p class="main_query-feedback"></p>
+		</div>
+		<div class="main_countries-wrapper">
+			<div class="get-started">
+			</div>
+		</div>
+	</main>
+	<script src="./data/countries.js"></script>
+	<script src="index.js"></script>
+</body>
+
+</html>
